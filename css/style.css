@@ -73,8 +73,13 @@ figure {
   min-height: 500px;
   margin: 0 10px 30px 10px;
   position: relative;
+  transition: 1s;
   /* DEBUG */
   background-color: red;
+}
+
+figure:hover {
+  transform: rotate(10deg);
 }
 
 .frame-photo {
