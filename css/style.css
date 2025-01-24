@@ -42,7 +42,13 @@ body {
 }
 
 /* MAIN CONTENT */
-.row {
+#container-main {
+  display: flex;
+  justify-content: center;
+}
+
+#container-cards {
+  width: 65%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -60,8 +66,8 @@ body {
 }
 
 figure {
-  width: 400px;
-  min-height: 500px;
+  width: 30%;
+  /* min-height: 500px; */
   margin: 0 10px 30px 10px;
   position: relative;
   transition: 1s;
