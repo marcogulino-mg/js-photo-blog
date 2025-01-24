@@ -13,3 +13,31 @@ svg {
   display: block;
   max-width: 100%;
 }
+
+/* GENERICS TAGS */
+h1 {
+  font-size: 100px;
+}
+
+body {
+  font-family: "Edu TAS Beginner", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* PAGE STRUCTURE */
+#container {
+  height: 100vh;
+}
+
+/* UPPER PART */
+#subcontainer-title {
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* DEBUG */
+  background-color: green;
+}
+
+/* MAIN CONTENT */
