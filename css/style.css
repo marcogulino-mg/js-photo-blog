@@ -100,12 +100,13 @@ figcaption > span {
   color: rgb(141, 143, 143);
 }
 
+/* MEDIA QUERIES */
 /* TABLET VERSION */
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1024px) {
   #container-cards {
     width: 70%;
   }
-  
+
   figure {
     width: 45%;
   }
@@ -116,7 +117,7 @@ figcaption > span {
   h1 {
     font-size: 70px;
   }
-  
+
   #container-cards {
     width: 70%;
   }
