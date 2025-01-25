@@ -99,3 +99,10 @@ figcaption > span {
   font-style: normal;
   color: rgb(141, 143, 143);
 }
+
+/* TABLET VERSION */
+@media screen and (max-width: 991px) {
+  figure {
+    width: 45%;
+  }
+}
