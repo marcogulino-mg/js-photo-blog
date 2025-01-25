@@ -32,7 +32,7 @@ body {
 
 /* PAGE STRUCTURE */
 /* UPPER PART */
-#container-title {
+header {
   padding: 25px;
   margin-bottom: 30px;
   display: flex;
@@ -42,7 +42,7 @@ body {
 }
 
 /* MAIN CONTENT */
-#container-main {
+main {
   display: flex;
   justify-content: center;
 }
