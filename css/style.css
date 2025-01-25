@@ -65,6 +65,11 @@ body {
   transform: translateX(-50%);
 }
 
+/* RED-PIN HIDDEN */
+figure:hover > .red-pin {
+  display: none;
+}
+
 figure {
   width: 30%;
   /* min-height: 500px; */

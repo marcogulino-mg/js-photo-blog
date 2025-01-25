@@ -34,4 +34,5 @@ axios
   })
   .catch((error) => {
     //IF THERE ARE ERRORS EXECUTE THIS
+    console.error(error);
   });
