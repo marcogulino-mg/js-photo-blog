@@ -77,6 +77,7 @@ figure {
   position: relative;
   transition: 1s;
   background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 7px rgb(0, 0, 0);
 }
 
 /* SLIGHT CARD ROTATION */
@@ -100,11 +101,45 @@ figcaption > span {
   color: rgb(141, 143, 143);
 }
 
+/* POPUP IMAGE */
+.popup-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.6);
+  display: none;
+}
+
+.popup-image > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid 1px rgb(0, 0, 0);
+}
+
+/* CLOSE POPUP BTN */
+.close-popup {
+  padding: 5px 10px 5px 10px;
+  font-size: 20px;
+  position: absolute;
+  top: 4%;
+  right: 50%;
+  transform: translate(50%, 50%);
+}
+
 /* MEDIA QUERIES */
 /* TABLET VERSION */
 @media screen and (max-width: 1024px) {
   #container-cards {
     width: 70%;
+  }
+
+  .popup-image > img {
+    width: 95%;
   }
 
   figure {
@@ -122,6 +157,10 @@ figcaption > span {
     width: 70%;
   }
 
+  .close-popup {
+    top: 18%;
+  }
+
   figure {
     width: 90%;
   }
@@ -135,5 +174,9 @@ figcaption > span {
 
   #container-cards {
     width: 90%;
+  }
+
+  .close-popup {
+    top: 30%;
   }
 }
